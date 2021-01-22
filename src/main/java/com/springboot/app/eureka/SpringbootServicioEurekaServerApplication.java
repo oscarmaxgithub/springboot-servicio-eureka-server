@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 
 @SpringBootApplication
+//@SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
 @EnableEurekaServer
 public class SpringbootServicioEurekaServerApplication {
 
